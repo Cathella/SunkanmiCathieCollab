@@ -1,0 +1,14 @@
+#news {
+    height: 300px;
+    background-color: green;
+}
+
+#forum {
+    height: 500px;
+    background-color: aqua;
+}
+
+#learn {
+    height: 400px;
+    background-color: blueviolet;
+}
