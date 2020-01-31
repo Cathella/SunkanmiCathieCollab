@@ -8,38 +8,32 @@
   </head>
 
   <body>
- 
     <div class="container">
-      <header id="header">
-              <div class="row">
-                  <div class="col-md-4">
-                    <form class="form" action="">
-                      <input type="text" placeholder="Search 5000+ tutorials">
-                    </form>
-                  </div>
-                  <div class="logo col-md-4">
-                    <img id="header-img" src="img/logo.png" alt="" width="250">
-                  </div>
-                  <nav id="nav-bar"  class="col-md-4 text-right">
-                    <a class="nav-link" href="#news">/news</a>
-                    <a class="nav-link" href="#forum">/forum</a>
-                    <a class="nav-link" href="#learn">/learn</a>
-                  </nav>
-              </div>
-              <div></div>
-              <div></div>
-              <div></div>
+      <header class="row" id="header">
+          <div class="logo col-md-6">
+              <img id="header-img" src="img/logo.png" alt="" width="250">
+          </div>
+          <nav class="fixed" id="nav-bar"  class="col-md-6 text-right">
+              <a class="nav-link" href="#news">/news</a>
+              <a class="nav-link" href="#forum">/forum</a>
+              <a class="nav-link" href="#learn">/learn</a>
+          </nav>
       </header>
       <section id="news"> 
         <!--<video id="video" src="https://www.youtube.com/watch?v=B2q5cRJvqI8"></video> -->
         <video width="320" height="240" controls>
-          <source src="https://www.youtube.com/watch?v=B2q5cRJvqI8" type="video/mp4">
-<source src="/build/videos/arcnet.io(7-sec).mp4" type=video/mp4>
+          <source src=”http://techslides.com/demos/sample-videos/small.ogv” type=video/ogg>
+          <!-- <source src="/build/videos/arcnet.io(7-sec).mp4" type=video/mp4> -->
         </video>
-    
       </section>
 
-      <section id="forum"> This is the forum section.</section>
+      <section id="forum">
+        <form style="padding: 100px" id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+          <input class="form-control" type="email" id="email" placeholder="Enter email address">
+          <input class="btn btn-primary" type="submit" id="submit" value="Submit">
+        </form>
+      </section>
+
       <section id="learn"> This is the learn section.</section>
 
       
