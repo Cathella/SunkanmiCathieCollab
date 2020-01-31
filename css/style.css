@@ -15,9 +15,10 @@
 
 nav {
     display: flex;
+    position: fixed;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
     #news, #forum, #learn {
         background-color: transparent;
     }
